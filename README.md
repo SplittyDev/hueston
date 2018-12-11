@@ -44,16 +44,15 @@ The fireplace simulation is very customizable. Discover arguments:<br>
 `cargo run --release -- help simulate fireplace`
 
 EPILEPSY WARNING:
-```
+
 Although the fireplace simulation is calm by default, it can be programmed to behave much more violently and might trigger seizures in sensitive people.
 
 The simulation has "sparks" enabled by default, which causes single lights to flash in random intervals of time.
 
 Although the brightness of these flashes can be reduced programmatically to make them less "flashy", sparks have the potential to cause seizures in people sensitive to rapidly changing brightness or flashing lights.
 
-Sparks can be disabled by setting the spark probability to 0.
+Sparks can be disabled by setting the spark probability to 0.<br>
 Example: cargo run --release -- simulate fireplace --sp 0
-```
 
 ### ColorSweep Effect
 > A calm and relaxing ambiente.
