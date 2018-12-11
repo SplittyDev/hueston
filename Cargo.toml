@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "hueston",
+    "hueston-sync",
+]

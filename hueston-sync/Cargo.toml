@@ -1,0 +1,15 @@
+[package]
+name = "hueston-sync"
+version = "0.1.0"
+authors = ["SplittyDev <splittydev@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+hueston = { path = "../hueston" }
+serde = "1.0.80"
+serde_derive = "1.0.80"
+serde_json = "1.0.33"
+error-chain = "0.12.0"
+human-panic = "1.0.1"
+clap = "2.32.0"
+rand = "0.6.1"
